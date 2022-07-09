@@ -4,9 +4,11 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <div clasName="container">
+        <div className="row heading">
+          <h1>Sylvain Côté</h1>
+        </div>
+      </div>
     </div>
   );
 }
