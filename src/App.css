@@ -9,14 +9,14 @@ li {
   font-weight: 800;
 }
 a:link {
-  color: rgba(0, 0, 17, 0.901);
+  color: rgba(0, 0, 119, 0.901);
   text-decoration: none;
 }
 a:visited {
-  color: rgba(0, 0, 72, 0.901);
+  color: rgba(0, 72, 40, 0.901);
 }
 a:hover {
-  color: rgba(5, 5, 105, 0.901);
+  color: rgba(0, 0, 164, 0.901);
 }
 a:active {
   color: rgba(3, 55, 20, 0.901);
@@ -30,6 +30,20 @@ body {
   background-size: 100%;
 }
 
+.icon
+{
+  opacity: 100%;
+}
+
+.nav-link
+{
+  color: #F9C61F !important;
+}
+.nav-link:hover
+{
+  color: #b8872b !important;
+}
+
 .header {
   border: 5px solid #FF7C2C;
   background-color: #F9C61F;
@@ -37,19 +51,33 @@ body {
   text-align: center;
 }
 
+.services
+{
+  padding: 15px;
+  border: 3px solid #F9C61F;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col6
+{
+  margin-left: 25px;
+}
+
 .menu {
-  margin-top: 30px;
-  border: 5px solid #FF7C2C;
-  background-color: #F9C61F;
-  opacity: 70%;
+  font-size: 25px;
+  background-color: #000000;
+  opacity: 60%;
+}
+.center
+{
+  text-align: center;
 }
 
 .footer
 {
   background-color: #fff;
-  border: 1px solid black;
+  border: 1px solid #000;
   margin-right: 15%;
   margin-left: 15%;
-  margin-top: 18em;
+  margin-top: 6em;
   text-align: center;
 }
